@@ -1,0 +1,10 @@
+id: RebuildWidget
+name: RebuildWidget
+key: rebuildwidget
+description: <__trans phrase='_PLUGIN_DESCRIPTION'>
+author_name: okayama
+author_link: http://weeeblog.net/
+version: 1.1
+l10n_class: RebuildWidget::L10N
+callbacks:
+    MT::App::CMS::template_param.edit_template: $rebuildwidget::RebuildWidget::Callbacks::_cb_tp_edit_template
